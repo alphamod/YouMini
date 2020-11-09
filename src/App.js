@@ -39,6 +39,7 @@ class App extends Component {
             <div className="col-md-4 col-lg-4 col-xl-4 px-0 mx-0">
               <VideoList onVideoSelect={this.onVideoSelect} videos={this.state.videos}/>
             </div>
+          <small className="text-center mx-auto text-secondary text-decoration-none">Developed by <a target="_blank" href="https://www.github.com/alphamod">Syed.</a></small>
           </div>
         </div>
       </>
